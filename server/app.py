@@ -17,7 +17,7 @@ def create_user():
     password = request.form['password']
     print('username',username)
     print('password',password)
-    sleep(3)
+    sleep(1.5)
     return json.dumps({"status":"create user success","user":username})
 
 
